@@ -13,7 +13,9 @@
 int main(void)
 {
 	char Mystring[100];
-	sprintf(Mystring, "and that piece of art is useful\" - Dora Korpar, 2015-10-19");
+
+	sprintf(Mystring, "and that piece of art is useful\"
+		- Dora Korpar, 2015-10-19");
 	printf("%s\n", Mystring);
 
 	return (1);
