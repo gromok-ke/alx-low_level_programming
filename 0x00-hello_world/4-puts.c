@@ -9,8 +9,9 @@
  */
 int main(void)
 {
-	Mystring[] = "Programming is like building a multilingual puzzle";
+	char Mystring[] = "Programming is like building a multilingual puzzle";
+
 	puts(Mystring);
 
-	return 0;
+	return (0);
 }
