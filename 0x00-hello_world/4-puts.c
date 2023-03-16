@@ -9,7 +9,8 @@
  */
 int main(void)
 {
-	printf("Programming is like building a multilingual puzzle");
+	Mystring[] = "Programming is like building a multilingual puzzle";
+	puts(Mystring);
 
-	return (0);
+	return 0;
 }
