@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * int - Entry point of the program
+ * main - Entry point of the program
  *
  * Description: Program to print lowercase alphabet a-z except q & e
  *
