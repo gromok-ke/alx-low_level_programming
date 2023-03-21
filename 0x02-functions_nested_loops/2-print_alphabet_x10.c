@@ -2,7 +2,8 @@
  * print_alphabet_x10 - function to print alphabets 10x when called
  *
  */
-int _putchar(char c);
+
+#include <main.h>
 
 void print_alphabet_x10(void)
 {
