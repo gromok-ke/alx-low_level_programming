@@ -1,3 +1,5 @@
+#include <main.h>
+
 /**
  * print_alphabet_x10 - function to print alphabets 10x when called
  *
