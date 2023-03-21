@@ -1,6 +1,3 @@
-#include <unistd.h>
-#include <main.h>
-
 /**
  * _putchar - prints a single character to the console
  *
