@@ -5,15 +5,11 @@
 
 void jack_bauer(void)
 {
-	int hr = 0;
-
-	while (hr <= 23)
+	for (int hr = 0; hr <= 23; hr++)
 	{
-		int min = 0;
-
-		while (min <= 59)
+		for (mins = 0; mins <= 59; mins++)
 		{
-			printf("%02d:%02d", hr, min);
+			printf("%02d:%02d", hr, mins);
 			printf("\n");
 		}
 	}
