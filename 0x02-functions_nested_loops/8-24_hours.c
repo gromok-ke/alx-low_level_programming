@@ -3,7 +3,7 @@
  * jack_bauer - print hour and minute
  */
 
-void jack_bauer(void);
+void jack_bauer(void)
 {
 	int hr = 0;
 
