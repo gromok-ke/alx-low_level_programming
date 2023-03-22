@@ -1,15 +1,17 @@
 #include <stdio.h>
-
 /**
- * jack_bauer - prints time from 00:00 to 23:59
- *
+ * jack_bauer - print hour and minute
  */
 
-void jack_bauer(void)
+void jack_bauer(void);
 {
-	for (int hr = 0; hr <= 23; hr++)
+	int hr = 0;
+
+	while (hr <= 23)
 	{
-		for (int min = 0; min <= 59; min++)
+		int min = 0;
+
+		while (min <= 59)
 		{
 			printf("%02d:%02d", hr, min);
 			printf("\n");
