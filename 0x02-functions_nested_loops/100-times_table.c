@@ -18,7 +18,7 @@ void print_times_table(int n)
 			{
 				int k = i * j;
 
-				printf("%d", k);
+				printf("%3d", k);
 
 				if (k < (n * n))
 				{
