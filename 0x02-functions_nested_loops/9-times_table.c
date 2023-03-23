@@ -14,7 +14,7 @@ void times_table(void)
 		{
 			int k = i * j;
 
-			printf("%2d", k);
+			printf("%d", k);
 
 			if (k < 81)
 			{
