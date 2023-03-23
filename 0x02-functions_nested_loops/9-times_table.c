@@ -12,7 +12,14 @@ void times_table(void)
 	{
 		for (j = 0; j <= 9; j++)
 		{
-			printf("%2d, ", i * j);
+			int k = i * j;
+
+			printf("%02d", k)
+
+			if (k < 81)
+			{
+				printf(", ");
+			}
 		}
 
 		printf("\n");
