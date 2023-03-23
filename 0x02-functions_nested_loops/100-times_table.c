@@ -8,7 +8,7 @@
 
 void print_times_table(int n)
 {
-        int i, j;
+	int i, j;
 
 	if (n >= 0 && n <= 15)
 	{
@@ -18,7 +18,7 @@ void print_times_table(int n)
 			{
 				int k = i * j;
 
-				printf("%3d", k);
+				printf("%2d", k);
 
 				if (k < (n * n))
 				{
