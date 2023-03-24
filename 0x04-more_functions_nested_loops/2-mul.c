@@ -5,7 +5,7 @@
  *
  * @b: integer two
  *
- * Return: returns the result of the product of @a and @b
+ * Return: returns the result of the product of a and b
  */
 
 int mul(int a, int b)
