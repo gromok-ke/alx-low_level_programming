@@ -7,10 +7,20 @@
 
 void print_rev(char *s)
 {
-	while (*s < '\0')
+	/*Find the end of the string*/
+	char *end = s;
+
+	while (*end != '\0')
 	{
-		_putchar(*s);
-		s--;
+		end++;
 	}
+
+	/*Output character in reverse*/
+	while (end > s)
+	{
+		end--;
+		_putchar(*end);
+	}
+	/*Output newline character*/
 	_putchar('\n');
 }
