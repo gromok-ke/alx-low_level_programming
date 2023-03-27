@@ -2,7 +2,7 @@
  * swap_int - swaps the value of two int type variables.
  *
  * @a: integer one
- * 
+ *
  * @b: integer two
  *
  */
