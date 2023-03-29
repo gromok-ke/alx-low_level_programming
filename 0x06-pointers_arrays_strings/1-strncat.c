@@ -14,7 +14,7 @@ char *_strncat(char *dest, char *src, int n)
 {
 	char *p = dest + strlen(dest);
 
-	while (**src && n--)
+	while (*src && n--)
 	{
 		*p++ = *src++;
 	}
