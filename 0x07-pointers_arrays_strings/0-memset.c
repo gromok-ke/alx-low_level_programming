@@ -2,20 +2,20 @@
 /**
  * _memcpy - copies a block of memory from one location to another
  *
- * @dest: destination location
- * @src: source location
+ * @s: destination location
+ * @b: source location
+ * @n: number of bytes to fill
  *
  * Return: returns the copied memory
  */
 
-char *_memcpy(char *dest, char *src, unsigned int n)
+char *_memset(char *s, char b, unsigned int n)
 {
-	char *d = dest;
-	const char *s = src;
+	char *p = s;
 
-	while (n--)
+	while (n-- > 0)
 	{
-		*d++ = *s++;
+		*p++ = b;
 	}
-	return dest;
+	return s;
 }
