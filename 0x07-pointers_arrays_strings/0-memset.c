@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * _memcpy - copies a block of memory from one location to another
+ * _memset - akes a pointer to the memory area to be filled s
  *
  * @s: destination location
  * @b: source location
@@ -17,5 +17,5 @@ char *_memset(char *s, char b, unsigned int n)
 	{
 		*p++ = b;
 	}
-	return s;
+	return (s);
 }
