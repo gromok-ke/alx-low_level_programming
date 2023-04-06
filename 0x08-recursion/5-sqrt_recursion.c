@@ -38,6 +38,8 @@ int _sqrt_recursion_helper(int n, int start, int end)
 	{
 		return (_sqrt_recursion_helper(n, mid + 1, end));
 	}
+
+	return (_sqrt_recursion_helper(n, start, mid - 1));
 }
 
 /**
