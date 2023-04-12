@@ -15,7 +15,7 @@ int min_coins(int cents)
 
 	if (cents < 0)
 	{
-		printf("0\n");
+		printf("%d\n", 0);
 
 		return (0);
 	}
