@@ -25,12 +25,12 @@ int find_len(char *str)
 }
 
 /**
- * create_xarray - creates an array of chars and initialize it 
- * 			with the char 'x'. Adds a terminating null byte.
+ * create_xarray - creates an array of chars and initialize it
+ * with the char 'x'. Adds a terminating null byte.
  * @size: size of the array to be initialized.
  *
- * Description: If there is insufficient space, the function 
- * 		exits with status of 98.
+ * Description: If there is insufficient space, the function
+ * exits with status of 98.
  *
  * Return: Apointer to the array.
  */
@@ -55,7 +55,7 @@ char *create_xarray(int size)
 
 /**
  * iterate_zeroes - Iterates through a string of numbers containing
- * 			leading zeroes untill it hits a non-zero number.
+ * leading zeroes untill it hits a non-zero number.
  * @str: The string of numbers to iterate through
  *
  * Return: Apointer to the next non zero element.
@@ -97,8 +97,8 @@ int get_digit(char c)
  * @digit: the single digit
  * @zeroes: the necessary number of leading zeroes.
  *
- * Description: if mult contains a non-digit, the function 
- * 		exits with a status of 98
+ * Description: if mult contains a non-digit, the function
+ * exits with a status of 98
  */
 
 void get_prod(char *prod, char *mult, int digit, int zeroes)
@@ -189,8 +189,8 @@ void add_nums(char *final_prod, char *next_prod, int next_len)
  * @argv: an array of pointers to the arguments.
  *
  * Description: If the number of arguments is incorect or one number
- * 		contains non-digits, the function exits with status
- * 		code of 98.
+ * contains non-digits, the function exits with status
+ * code of 98.
  * Return: always 0
  */
 
