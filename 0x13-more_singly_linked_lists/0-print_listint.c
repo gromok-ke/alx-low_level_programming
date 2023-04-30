@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 /**
- * print_listinr - Prints all the elements of a lisint_t list.
+ * print_listint - Prints all the elements of a lisint_t list.
  *
  * @h: Pointer to the head of the linked list
  *
